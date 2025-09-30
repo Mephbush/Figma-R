@@ -1,0 +1,13 @@
+{
+  "name": "viscend-supabase-functions",
+  "version": "1.0.0",
+  "description": "Supabase Edge Functions for VisCend",
+  "type": "module",
+  "scripts": {
+    "deploy": "supabase functions deploy make-server-8bb3c8fe",
+    "serve": "supabase functions serve make-server-8bb3c8fe"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7"
+  }
+}
